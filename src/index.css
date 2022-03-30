@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right, black, green);
+    font-family: sans-serif;
+}
+.BackgroundHeader {
+    background-image: url(/src/assets/Rectangle.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 400px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.name{
+    text-shadow: 2px 0 2px greenyellow;}
+.BoxSearch{
+    margin: 270px 0 0;
+    margin-left: -70%;
+    padding: 10px 10px 0;
+    font-size: 25px;
+    font-style:oblique;
+    font-weight:bolder;
+    border-radius: 10px;
+    box-shadow: 2px 1px 10px yellow;
+    background-color: aqua;
+}
+button{
+    margin-left: -460px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-style: italic;
+    background: linear-gradient(to right, rgb(2, 110, 127), green);
+    z-index: 2;
+    background-size: cover;
+    transition: all 0.5s ease;
+}
+.styleLoc{
+    display: block;
+    font-weight: bold;
+    margin: 15px;
+}
+.styleLoc h1{
+    display: flex;
+    font-size: 70px;
+    justify-content: center;
+    background: linear-gradient(yellow, black);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
+}
+.styleLoc h3{
+    display: flex;
+    justify-content: center;  
+}
+.styleLoc p{
+    display: inline-block;
+    margin-top: 10px;
+    padding-left: 70px;
+    font-size: 30px;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-stroke: 1px black;
+}
+.styleLoc p span{
+    background: linear-gradient(blue, yellow, green);
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-stroke: 1px black;
+}
+.cards{
+    display: inline-block;
+    background: linear-gradient(to left, blue, black) ;
+    border-radius: 5%;
+    margin: 20px;
+}
+.cards h3{
+    background: linear-gradient(to top, yellow, black) ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    text-shadow: 2px 0 2px green;
+}
+.cards img{
+    border-radius: 100px;
+    box-shadow: 2px 0 20px greenyellow;
+    margin: 10px;
+    padding: 3px;
+    width: 70%;
+}
+.cards p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 50px;
+    background: linear-gradient(yellow, red);
+    -webkit-background-clip: text;
+    color: transparent; 
+    -webkit-text-stroke: 1px black;
+}
+.cards p span{
+    background: linear-gradient(yellow, green);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.location{
+    background: linear-gradient(red, yellow, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
+.location span{
+    background: linear-gradient( yellow, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+}
